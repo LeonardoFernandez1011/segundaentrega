@@ -1,0 +1,24 @@
+body {
+    color: grey;
+    font-family: Arial;
+    min-height: 100vh
+}
+
+footer {
+    background: rgb(31, 50, 64) ;
+    bottom: 0;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    background-color: #A6D2F2;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+}

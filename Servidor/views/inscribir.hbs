@@ -1,0 +1,26 @@
+{{>header}}
+
+    <h1>Inscribir a un curso</h1>
+
+    <form action="/inscribir" method="post">
+    <p>*Ingrese Nombre del Estudiante:
+        <input type="text" name="nombreUser" required>
+    </p>
+    <p>*Ingrese el Documento del Estudiante:
+        <input type="number" name="documentUser" required>
+    </p>
+    <p>*Ingrese correo del Estudiante:
+        <textarea type="text" name="emailUser" required> </textarea>
+    </p>
+    <p>*Ingrese el telefono del Estudiante:
+        <input type="number" name="telephoneUser" required>
+    </p>
+    <p>
+        {{{ inscribir nombreUser documentUser emailUser telephoneUser nombreCurso}}}
+
+    </p>
+    <h5>Campos Requeridos *</h5>
+
+    <button>Inscribirse</button>
+</form>
+{{>footer}}
